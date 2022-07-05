@@ -1,0 +1,14 @@
+Q4 What is instance of operator explain with an example
+
+this operator is used to check that whether this object is refers to particular class or not.
+ex)
+class bird{
+public static void main(String args[]){
+bird b=new bird();
+System.out.println(b instanceof bird);
+//it will give output as true because b is refers to bird
+bird c=new bird();
+System.out.println(c instanceof parrot);
+//it will give output as false because c is refers to bird not parrot class
+}
+}

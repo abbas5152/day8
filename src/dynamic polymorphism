@@ -1,0 +1,4 @@
+Q2) Explain dynamic polymorphism ?
+
+In dynamic polymorphism we call override method at runtime.in this this methods is called by variable of superclass.
+which method will execute depends on which class refers to which class.
